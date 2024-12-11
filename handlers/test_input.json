@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What makes code maintainable?",
+    "model_name": "accounts/fireworks/models/llama-v3-8b-instruct",
+    "temp": 0.7,
+    "max_tok": 150,
+    "sys_prompt": "You are a software architecture expert"
+  },
+  {
+    "question": "How do you handle technical debt?",
+    "model_name": "accounts/fireworks/models/llama-v3-8b-instruct",
+    "temp": 0.8,
+    "max_tok": 200,
+    "sys_prompt": "You are an experienced tech lead"
+  },
+  {
+    "question": "What are code review best practices?",
+    "model_name": "accounts/fireworks/models/llama-v3-8b-instruct",
+    "temp": 0.9,
+    "max_tok": 250,
+    "sys_prompt": "You are a senior code reviewer"
+  }
+]

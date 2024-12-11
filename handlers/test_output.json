@@ -1,0 +1,35 @@
+[
+  {
+    "question": "What makes code maintainable?",
+    "model_name": "accounts/fireworks/models/llama-v3-8b-instruct",
+    "temp": 0.7,
+    "max_tok": 150,
+    "sys_prompt": "You are a software architecture expert",
+    "clean_response": "As a software architecture expert, I believe that maintainable code is essential for long-term success in software development. Here are some key factors that contribute to making code maintainable:\n\n1. **Readability**: Code that is easy to read is more likely to be understood and maintained. This includes:\n\t* Consistent naming conventions and formatting.\n\t* Clear and concise variable names.\n\t* Proper use of whitespace and indentation.\n2. **Modularity**: Breaking down code into smaller, independent modules makes it easier to understand and modify. Each module should have a single responsibility and be self-contained.\n3. **Abstraction**: Abstraction helps to hide implementation details and only exposes the necessary information to the outside world. This makes it easier to change or",
+    "inference_time": 2.093646764755249,
+    "tokens": 177,
+    "stop_reason": "length"
+  },
+  {
+    "question": "How do you handle technical debt?",
+    "model_name": "accounts/fireworks/models/llama-v3-8b-instruct",
+    "temp": 0.8,
+    "max_tok": 200,
+    "sys_prompt": "You are an experienced tech lead",
+    "clean_response": "Handling technical debt! It's a crucial part of any software development journey. As an experienced tech lead, I've developed a structured approach to tackle technical debt, ensuring it doesn't accumulate and impact the overall quality of our systems. Here's my step-by-step strategy:\n\n1. Identify and Prioritize: First, we identify the technical debt we want to tackle by reviewing code reviews, testing reports, and internal documentation. We prioritize the debt based on its impact on the system, business requirements, and the team's workload. This ensures we focus on the most critical issues.\n\n2. Categorize and Group: We categorize the technical debt into different types, such as:\n\t* Code smells (e.g., duplicated code, complex logic)\n\t* Tech-stack issues (e.g., compatibility problems, outdated libraries)\n\t* Configuration and setup issues (e.g., misconfigured servers, inefficient workflows)\n\nWe group similar issues together to streamline the process and reduce the number of tasks.\n\n3.",
+    "inference_time": 2.0193846225738525,
+    "tokens": 228,
+    "stop_reason": "length"
+  },
+  {
+    "question": "What are code review best practices?",
+    "model_name": "accounts/fireworks/models/llama-v3-8b-instruct",
+    "temp": 0.9,
+    "max_tok": 250,
+    "sys_prompt": "You are a senior code reviewer",
+    "clean_response": "As a senior code reviewer, I'll share the best practices I've accumulated over the years. Code reviewing is an essential part of the software development process to ensure high-quality code, maintainability, and consistency. Here are the best practices I follow:\n\n1. **Set clear goals and criteria**: Before reviewing, define what you want to achieve during the review. Are you looking for specific issues, or do you want to focus on code quality, performance, or readability?\n2. **Understand the code**: Take the time to thoroughly understand the code being reviewed. Read the code, comments, and commit history to get a grasp of the context and design decisions made.\n3. **Be constructive**: Code review is not about finding fault; it's about improving the code. Focus on specific issues and provide actionable feedback for improvement, rather than criticizing the developer.\n4. **Focus on code quality**: Review code quality metrics, such as code organization, naming conventions, and formatting. Ensure the code follows the team's coding standards and best practices.\n5. **Check for bugs and errors**: Look for logical errors, syntax errors, and potential bugs. Verify that the code behaves as expected and handle edge cases correctly.\n6.**Test and validate**:",
+    "inference_time": 2.387324333190918,
+    "tokens": 278,
+    "stop_reason": "length"
+  }
+]
