@@ -103,7 +103,10 @@ def print_object_fields(objects_dict: Dict[str, List[Dict[str,Any]]], obj_name: 
 # -------------------------
 # Sidebar Configuration
 with st.sidebar:
-    st.link_button("Go to video instruction", "https://youtu.be/NXbvN1i3x-g", type="primary")
+    side_col1, side_col2 = st.columns(2)
+    side_col1.link_button("Fast intro", "https://youtu.be/6lpiwvJvAww", type="primary")
+    side_col2.link_button("Detailed intro", "https://youtu.be/NXbvN1i3x-g", type="primary")
+    
     st.title("Global Configuration")
 
     # Define instructions and default base URLs for each API type
@@ -571,6 +574,9 @@ if generate_code_button:
     code_lines.append('import os, shutil; [shutil.move(os.path.join("ezExperimenter", item), ".") for item in os.listdir("ezExperimenter")]; shutil.rmtree("ezExperimenter")')
     code_lines.append("# pip install required packages")
     code_lines.append('!pip install -r requirements.txt')
+    code_lines.append('')
+    code_lines.append('you can run the code generator locally. Remove the # of the following line.')
+    code_lines.append('#!streamlit run app.py')
     code_lines.append("")   
     code_lines.append("# import libraries")
     code_lines.append("import os")
