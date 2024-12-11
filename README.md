@@ -1,16 +1,14 @@
 # Description
 
-This is an all-in-one module for running LLM/VLM for generation, with or without structured output (Pydantic JSON).
+This is an all-in-one module for running LLM/VLM for generation, with or without structured output (Pydantic JSON). 
 
-
-
-# Easier version
+# Fast Instruction
 
 Run your experiments fast, in 5 steps.
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
-🟩🟩 [Step-by-step instruction]() 🟩🟩
+🟩🟩 [Fast instruction]() 🟩🟩
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
@@ -34,10 +32,10 @@ Run your experiments fast, in 5 steps.
 8- Paste the ezExperimenter code and run it. The code handles downloading ezExperimenter codes from Git Hub, importing libraries, creating experiment configurations, setup the API engine, and starting running experiments.
 
 
-# For Developers
+# Detailed Instruction with one Example
 🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪
 
-🟪🟪 [Step-by-step instruction](https://youtu.be/NXbvN1i3x-g) 🟪🟪
+🟪🟪 [Detailed instruction](https://youtu.be/NXbvN1i3x-g) 🟪🟪
 
 🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪
 
@@ -62,7 +60,7 @@ Here's the improved version of your guide with refined wording for clarity and c
 ### 4. API and Model Deployment Guide
 
 #### 4.a - OpenAI API
-- **[Create an Account and Obtain an API Key](https://www.youtube.com/shorts/Hqyj_jJ4Lrk)**  
+- **[Create an Account and Obtain an API Key](https://platform.openai.com/api-keys)**  
     - Ensure your account is funded to use the API.
 - **Base URL:** `https://api.openai.com/v1/`
 - **Models:** [OpenAI Models List](https://platform.openai.com/docs/models)  
@@ -94,7 +92,7 @@ Here's the improved version of your guide with refined wording for clarity and c
 
 #### 4.e - Ollama (Local Deployment of Open-Source Models)
 - **Steps:**  
-    1. Install Ollama on your local system.  
+    1. [Install Ollama on your local system](https://ollama.com/download).  
     2. Pull a model by running: `ollama pull <model-name:size>` (downloads the model locally).  
     - Note: Batch size must be set to 1 to avoid parallel computation issues on local machines.
 - **Base URL:** `http://localhost:11434/v1/`
