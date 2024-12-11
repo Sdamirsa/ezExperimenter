@@ -4,7 +4,8 @@
 pandas==2.2.3
 openpyxl==3.1.5
 numpy==2.0.2
-# streamlit==1.40.2
+streamlit==1.40.2
+pydantic
 
 # altair==5.5.0
 # annotated-types==0.7.0
