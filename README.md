@@ -2,13 +2,18 @@
 
 This is an all-in-one module for running LLM/VLM for generation, with or without structured output (Pydantic JSON). 
 
+You should first see the fast walkthrough and then the detailed one (if you know python skip the first video):
+- Fast: https://youtu.be/6lpiwvJvAww
+- Detailed:  https://youtu.be/NXbvN1i3x-g
+
+
 # Fast Instruction
 
 Run your experiments fast, in 5 steps.
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
-🟩🟩 [Fast instruction]() 🟩🟩
+🟩🟩 [Fast instruction](https://youtu.be/6lpiwvJvAww) 🟩🟩
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
