@@ -1,16 +1,44 @@
 # Description
 
-This is an all-in-one module for running LLM/VLM for generation, with or without structured output (Pydantic JSON).
+This is an all-in-one module for running LLM/VLM for generation, with or without structured output (Pydantic JSON). 
 
+# Fast Instruction
+
+Run your experiments fast, in 5 steps.
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
-🟩🟩 [Step-by-step instruction](https://youtu.be/NXbvN1i3x-g) 🟩🟩
+🟩🟩 [Fast instruction]() 🟩🟩
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
 
-# Setup
+
+1- [Install python](https://www.python.org/downloads/)
+
+2- [Install VS code](https://code.visualstudio.com/)
+
+3- [Install Git](https://git-scm.com/downloads)
+
+4- Get your engine for computation. You can use openai, Firework (online, open-source model), Ollama (local, open-source models). See [section 4 below](https://github.com/Sdamirsa/ezExperimenter#4-api-and-model-deployment-guide) for more details. 
+
+5- Design your experiment and get your code from [ezEpxerimenter UI](https://ez--experimenter.streamlit.app/)
+
+6- Create a new folder, open the folder with vs code (right click and select open with vs code), open the terminal (ctrl+shift+`), create virtual environment:
+    python -m venv venv
+
+7- Create a notebook (myExperiment.ipynb), from the top right, press "Select Kernel" and select the top suggestion "venv"
+
+8- Paste the ezExperimenter code and run it. The code handles downloading ezExperimenter codes from Git Hub, importing libraries, creating experiment configurations, setup the API engine, and starting running experiments.
+
+
+# Detailed Instruction with one Example
+🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪
+
+🟪🟪 [Detailed instruction](https://youtu.be/NXbvN1i3x-g) 🟪🟪
+
+🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪
+
 ## 0- Python, VS code, and ezExperimenter code
 - [Download and install python](https://www.python.org/downloads/)
 - [Donwload and install VS code](https://code.visualstudio.com/download)
@@ -32,7 +60,7 @@ Here's the improved version of your guide with refined wording for clarity and c
 ### 4. API and Model Deployment Guide
 
 #### 4.a - OpenAI API
-- **[Create an Account and Obtain an API Key](https://www.youtube.com/shorts/Hqyj_jJ4Lrk)**  
+- **[Create an Account and Obtain an API Key](https://platform.openai.com/api-keys)**  
     - Ensure your account is funded to use the API.
 - **Base URL:** `https://api.openai.com/v1/`
 - **Models:** [OpenAI Models List](https://platform.openai.com/docs/models)  
@@ -64,7 +92,7 @@ Here's the improved version of your guide with refined wording for clarity and c
 
 #### 4.e - Ollama (Local Deployment of Open-Source Models)
 - **Steps:**  
-    1. Install Ollama on your local system.  
+    1. [Install Ollama on your local system](https://ollama.com/download).  
     2. Pull a model by running: `ollama pull <model-name:size>` (downloads the model locally).  
     - Note: Batch size must be set to 1 to avoid parallel computation issues on local machines.
 - **Base URL:** `http://localhost:11434/v1/`
